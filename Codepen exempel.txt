@@ -1,3 +1,5 @@
+//----------------------------------
+//--------- CODEPEN ---------------
 //https://codepen.io/pen
 
 //---------HTML------------
@@ -21,7 +23,7 @@ class App extends React.Component {
     }
 }
 //----------------------------------
-
+//----------------------------------
 
 
 //Node.js, Visual Studio, React Developer Tools i chrome
@@ -43,5 +45,6 @@ class App extends React.Component {
  * Öppna terminalen i visual code & skapa en ny react app:
  *npx create-react-app {. || namn på ny dir}	
  *cd {dir}
+*Avsluta med ctrl+C => "Terminate batch job (Y/N)? Y"
 **/
 
