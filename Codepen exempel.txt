@@ -1,0 +1,22 @@
+https://codepen.io/pen
+
+---------HTML------------
+<div id='root'></div>
+
+
+---------JS------------
+function Welcome(props){
+  return <h1> Hello {props.name}</h1>;
+}
+
+class App extends React.Component {
+    render(){
+      return(
+       <div>
+      <Welcome name='java 23' />;
+      <Welcome name='java 24' />;
+      <Welcome name='java 25' />;
+      </div>
+      )
+    }
+}
